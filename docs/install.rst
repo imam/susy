@@ -114,6 +114,12 @@ Add Gulp Task:
           }).on('error', sass.logError))
           .pipe(gulp.dest('dist/css'));
     });
+    
+Import Susy:
+
+.. code-block:: scss
+
+    @import "_susy";
 
 
 Grunt (and Yeoman)
